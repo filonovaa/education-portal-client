@@ -1,0 +1,6 @@
+.MainPage {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: minmax(50px, auto);
+}
