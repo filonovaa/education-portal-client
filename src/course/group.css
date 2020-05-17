@@ -1,0 +1,11 @@
+.CourseGroup {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.GroupInfo {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%; */
+}

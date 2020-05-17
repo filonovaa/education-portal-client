@@ -12,7 +12,7 @@ interface Row {
 
 export default function(props: Row): any {
   return (
-    <Link className="MainPageRow" to={{pathname: "/courses"}}>
+    <Link className="MainPageRow" to={{pathname: `/courses/${props.name}`}}>
       <p>{props.name}</p>
       <p>{props.nearestDate}</p>
       <p>{props.studentsCount}</p>

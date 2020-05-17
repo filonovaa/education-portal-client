@@ -1,0 +1,11 @@
+.Course {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: minmax(50px, auto);
+  row-gap: 10px
+}
+
+.CourseHeader {
+  background-color: lightskyblue;
+}

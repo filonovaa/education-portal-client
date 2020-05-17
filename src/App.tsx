@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import MainPage from './main-page'
+import Course from './course'
 
 import {
   BrowserRouter as Router,
-  Link,
   Route,
   Switch,
 } from 'react-router-dom';
@@ -16,9 +16,7 @@ function App() {
         <Route path="/main">
           <MainPage />
         </Route>
-        <Route path="/course">
-          <MainPage />
-        </Route>
+        <Route path="/courses/:name" component={Course} />
       </Switch>
     </Router>
   );
