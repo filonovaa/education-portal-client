@@ -11,14 +11,11 @@ export type GroupData = {
   registrations: Array<Registration>;
 }
 
-type State = {
-}
-
 type Props = {
   data: GroupData;
 }
 
-export class Group extends React.Component<Props, State> {
+export class Group extends React.Component<Props, {}> {
   email : String = ''
 
   updateEmail = (e: any): void => {
@@ -48,7 +45,6 @@ export class Group extends React.Component<Props, State> {
       alert('Вы успешно зарегистрированы')
     } else {
       const data = await response.json()
-      console.log('error registering', data)
       alert(data.error.message)
     }
   }

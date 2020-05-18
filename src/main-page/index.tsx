@@ -84,7 +84,6 @@ class MainPage extends React.Component<{}, IState> {
   }
 
   render(): any {
-    console.log('render main')
     return (
       <div className="MainPage">
         <div className="MainPageRow">

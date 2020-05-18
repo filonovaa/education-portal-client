@@ -40,8 +40,6 @@ export default class extends React.Component<any, State> {
   }
 
   render(): any {
-    console.log('Render course')
-
     if (this.state === null) {
       return null
     }
